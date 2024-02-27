@@ -1,0 +1,81 @@
+.calendar {
+    user-select: none;
+    width: 240px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #3c86f6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+  }
+  .input{
+    margin: 0.5% 4%;
+      background-color: #b6cee2
+  }
+  .calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c86f6;
+    padding: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .calendar__prev,
+  .calendar__next {
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .calendar__prev:hover,
+  .calendar__next:hover {
+    color: #ffffff;
+  }
+  
+  .calendar__current {
+    font-size: 14px;
+  }
+  
+  .calendar__weekdays {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    padding: 4px;
+    font-size: 12px;
+  }
+  
+  .weekday {
+    flex: 1;
+    text-align: center;
+    padding: 4px 0;
+  }
+  
+  .calendar__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 8px;
+    background-color: #3c86f6;
+  }
+  
+  .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fdfdfd;
+    height: 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .day--inactive {
+    color: #ccc;
+  }
+  .day:hover {
+    background-color: #0b0b0b;
+    color: #fff;
+    border-radius: 50%;
+  }

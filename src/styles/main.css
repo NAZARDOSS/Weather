@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+
+}
+
+*{
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.main {
+
+    height: 100%;
+    max-width: 100%;
+    padding: 2%;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    background-color: rgba(225, 230, 240, 0.935);
+    border: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.main-top{
+    width: 67%;
+}
+.main-top p {
+    margin-bottom: 0;
+}
+
+.trips {
+    width: 62%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    gap: 2.5vw;
+    justify-content: space-between;
+    height: 20vw;
+}
+
+.trip-block {
+    border: 1px solid rgba(178, 176, 176, 0.355);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.trip-block:hover {
+    border: 1px solid rgb(39, 191, 233);
+    border-radius: 4px;
+}
+
+.see-more {
+    border: 1px solid rgb(39, 191, 233);
+    height: 18%;
+    width: 80%;
+    border-radius: 100px;
+    margin-bottom: 10%;
+    background: none;
+    font-size: medium;
+    color: rgb(39, 191, 233);
+}
+
+.trip-block:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.trip-block-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-block {
+    height: 65%;
+}
+
+.trip-block-info {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    justify-content: center;
+    margin: 0;
+}
+.trip-block-info h4 {
+    margin-top: 0; /* Убираем верхний отступ для заголовка */
+}
+
+.trip-block-info p {
+    margin: 0; 
+    font-size: 0.8vw;
+}
+.add {
+    height: 65%;
+    width: 98%;
+    background-color: rgba(225, 230, 240, 0.935);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.add:hover {
+    border: 1px solid rgb(39, 191, 233);
+    border-radius: 4px;
+}
+
+
+.add p:first-child {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.week {
+    display: flex;
+    max-width: 60%;
+    overflow-x: auto;
+}
+
+.forecast-day{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list li {
+    list-style: none;
+}
+
+.deg{
+    display: flex;
+    justify-content: center;
+}
+.list .icon {
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    font-size: 300%;
+    .background .icon3{
+        position: absolute;
+        font-size: 25vh;
+        left: 80%;
+        top: 50%;
+        opacity: 0.35;
+    }
+}
+
+.list p:first-of-type{
+    margin-bottom: 20px;
+}
+.list p:last-of-type{
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,90 @@
+.widget{
+
+    width: 35%; 
+    height: 100vmin; 
+    position: fixed;
+    top: 0; 
+    right: 0;
+    overflow: hidden;
+}
+
+.widget-top {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.widget-top h1 {
+    margin-bottom: 5px;
+}
+.number {
+    font-size: 7vh;
+    padding-right: 70px ;
+}
+.cel {
+    font-size: 2vh;
+    position: absolute;
+}
+
+.number .icon {
+   font-size: 7vh;
+}
+
+.widget-top-text {
+  font-size: 3vh;
+  margin: 10px 50%;
+}
+
+.background .icon1{
+    position: absolute;
+    font-size: 25vh;
+    left: 70%;
+    top: 5%;
+    opacity: 0.35;
+}
+.background .icon2{
+    position: absolute;
+    font-size: 25vh;
+    left: -15%;
+    top: 20%;
+    opacity: 0.35;
+}
+
+.background .icon3{
+    position: absolute;
+    font-size: 25vh;
+    left: 80%;
+    top: 50%;
+    opacity: 0.35;
+}
+
+.background .icon4{
+    position: absolute;
+    font-size: 25vh;
+    left: -20%;
+    top: 75%;
+    opacity: 0.35;
+}
+
+.time {
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.time-block {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.time-block span {
+    font-weight: bold;  
+    font-size: 3vh;  
+}

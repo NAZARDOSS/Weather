@@ -1,0 +1,44 @@
+
+[
+    {
+      "city": "New York",
+      "image": "./assets/berlin.jpeg"
+    },
+    {
+      "city": "Paris",
+      "image": "./assets/paris.jpg"
+    },
+    {
+      "city": "London",
+      "image": "./assets/london.jpg"
+    },
+    {
+      "city": "Tokyo",
+      "image": "./assets/tokyo.jpg"
+    },
+    {
+      "city": "Rome",
+      "image": "./assets/rome.jpg"
+    },
+    {
+      "city": "Barcelona",
+      "image": "./assets/barcelona.jpg"
+    },
+    {
+      "city": "Berlin",
+      "image": "./assets/berlin.jpeg"
+    },
+    {
+      "city": "Dubai",
+      "image": "./assets/dubai.jpg"
+    },
+    {
+      "city": "Prague",
+      "image": "./assets/prague.jpg"
+    },
+    {
+      "city": "Venice",
+      "image": "./assets/venice.jpg"
+    }
+  ]
+  
